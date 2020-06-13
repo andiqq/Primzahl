@@ -13,6 +13,7 @@
 		E1D81B912458BCB400CB8C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D81B8F2458BCB400CB8C12 /* Main.storyboard */; };
 		E1D81B932458BCB700CB8C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D81B922458BCB700CB8C12 /* Assets.xcassets */; };
 		E1D81B962458BCB700CB8C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D81B942458BCB700CB8C12 /* LaunchScreen.storyboard */; };
+		E1D81B9E2458BCCE00CB8C12 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D81B9D2458BCCE00CB8C12 /* Prim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1D81B922458BCB700CB8C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D81B952458BCB700CB8C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D81B972458BCB700CB8C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D81B9D2458BCCE00CB8C12 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		E1D81B7D2458BCB400CB8C12 = {
 			isa = PBXGroup;
 			children = (
+				E1D81B9D2458BCCE00CB8C12 /* Prim.swift */,
 				E1D81B882458BCB400CB8C12 /* PrimzahliOS */,
 				E1D81B872458BCB400CB8C12 /* Products */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D81B8E2458BCB400CB8C12 /* ViewController.swift in Sources */,
+				E1D81B9E2458BCCE00CB8C12 /* Prim.swift in Sources */,
 				E1D81B8A2458BCB400CB8C12 /* AppDelegate.swift in Sources */,
 				E1D81B8C2458BCB400CB8C12 /* SceneDelegate.swift in Sources */,
 			);

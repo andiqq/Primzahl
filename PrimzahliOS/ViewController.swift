@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func Start(_ sender: UIButton) {
+        
+        Duration.text = prim()
+    }
+    
+    @IBOutlet weak var Duration: UILabel!
+    
 }
 
