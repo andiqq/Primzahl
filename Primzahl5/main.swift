@@ -13,9 +13,7 @@ let duration = stopWatch.measure {
         let maxDivisor = Int(sqrt(Double(candidate)).rounded())
         var isPrime = true
         for primefactor in primes {
-            if primefactor > maxDivisor {
-                break
-            }
+            if primefactor > maxDivisor { break }
             if candidate % primefactor == 0 {
                 isPrime = false
                 break
